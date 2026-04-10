@@ -1,10 +1,10 @@
 .section {
     grid-area: section;
-    padding: 40px 20px; /* Отступы сверху и по бокам */
+    padding: 40px 20px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column; /* Выстраиваем элементы сверху вниз */
-    align-items: center; /* Центрируем по горизонтали */
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -12,19 +12,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px; /* Расстояние между картинкой и текстом */
+    gap: 15px;
 }
 
 .side-apple-icon {
-    width: 120px; /* Делаем яблоко крупным */
+    width: 120px;
     height: auto;
-    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1)); /* Красивая тень для картинки */
 }
 
 .side-logo-text {
     font-size: 24px;
     font-weight: 800;
-    color: #2E7D32; /* Темно-зеленый цвет для контраста */
+    color: #2E7D32;
     margin: 0;
     letter-spacing: 1px;
 }

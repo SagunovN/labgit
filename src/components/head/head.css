@@ -7,7 +7,7 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
     align-items: center;
-    justify-content: center; /* Идеальное центрирование меню */
+    justify-content: center;
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
     z-index: 100;

@@ -1,7 +1,5 @@
 import './article.css';
 import { Routes, Route } from 'react-router-dom';
-
-// Вот здесь мы обновили пути: добавили ../../ вместо ../
 import News from '../../artcomps/news/news';
 import About from '../../artcomps/about/about';
 import Contacts from '../../artcomps/contacts/contacts';

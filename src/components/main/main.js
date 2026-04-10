@@ -1,5 +1,5 @@
 import './main.css';
-import Section from '../mcomps/section/section'; // Укажите правильный путь до ваших компонентов
+import Section from '../mcomps/section/section';
 import Article from '../mcomps/article/article';
 import Aside from '../mcomps/aside/aside';
 
