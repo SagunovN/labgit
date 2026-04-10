@@ -1,0 +1,14 @@
+.article {
+    grid-area: article;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    overflow-y: auto;
+    color: #333333;
+}
+
+.article h1 {
+    color: #2E7D32;
+    margin-top: 0;
+}

@@ -1,0 +1,33 @@
+.head {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Идеальное центрирование меню */
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 100;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #4CAF50;
+    transform: translateY(-2px);
+}

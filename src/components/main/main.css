@@ -1,0 +1,11 @@
+.main {
+    margin-top: 60px;
+    width: 100%;
+    height: calc(100vh - 120px);
+    position: fixed;
+    display: grid;
+    grid-template-areas: "section article aside";
+    grid-template-columns: 20vw 60vw 20vw;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #E8F5E9; /* Очень светло-зеленый фон всего сайта */
+}

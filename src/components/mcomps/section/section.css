@@ -1,0 +1,30 @@
+.section {
+    grid-area: section;
+    padding: 40px 20px; /* Отступы сверху и по бокам */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Выстраиваем элементы сверху вниз */
+    align-items: center; /* Центрируем по горизонтали */
+    text-align: center;
+}
+
+.side-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Расстояние между картинкой и текстом */
+}
+
+.side-apple-icon {
+    width: 120px; /* Делаем яблоко крупным */
+    height: auto;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1)); /* Красивая тень для картинки */
+}
+
+.side-logo-text {
+    font-size: 24px;
+    font-weight: 800;
+    color: #2E7D32; /* Темно-зеленый цвет для контраста */
+    margin: 0;
+    letter-spacing: 1px;
+}
